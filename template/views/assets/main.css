@@ -1,0 +1,57 @@
+section.advent-banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('img/adventcalendar-bannere.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 10px 4px rgba(0,0,0,0.5); 
+    box-shadow: 0px 1px 10px 4px rgba(0,0,0,0.5);
+}
+
+section.advent-banner a {
+    border-radius: 5px;
+}
+
+
+
+
+section.calendar-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+div.calendar-form {
+    display: flex;
+    justify-content: center;
+}
+
+form.calendar-day {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
+}
+
+.day{  
+    flex-basis: 20%;
+    border-radius: 5px;
+    height: 50px;
+    width: 25px;
+    cursor: default;
+}
+
+input.day {
+    cursor: pointer;
+}
+
+h4.error {
+    border-radius: 5px;
+    cursor: default;
+}
